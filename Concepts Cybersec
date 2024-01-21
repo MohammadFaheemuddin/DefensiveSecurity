@@ -1,3 +1,37 @@
+
+Here are some core Windows processes:
+
+1. **System (System Process):**
+   - *Description:* The system process is a fundamental process responsible for various kernel-level tasks.
+
+2. **smss.exe (Session Manager Subsystem):**
+   - *Description:* smss.exe is responsible for managing user sessions on your system.
+
+3. **csrss.exe (Client Server Runtime Process):**
+   - *Description:* csrss.exe is crucial for the user interface, threading, and Win32 console handling.
+
+4. **wininit.exe (Windows Start-Up Application):**
+   - *Description:* wininit.exe is involved in the Windows startup process, initializing system settings.
+
+5. **services.exe (Services and Controller app):**
+   - *Description:* services.exe hosts services that run in the background, handling various system functions.
+
+6. **lsass.exe (Local Security Authority Subsystem Service):**
+   - *Description:* lsass.exe manages security policies, authentication, and related tasks.
+
+7. **svchost.exe (Service Host):**
+   - *Description:* svchost.exe hosts multiple Windows services, facilitating process organization.
+
+8. **winlogon.exe (Windows Logon Application):**
+   - *Description:* winlogon.exe manages the Windows logon and logoff processes.
+
+9. **explorer.exe (Windows Explorer):**
+   - *Description:* explorer.exe is the Windows File Explorer and desktop environment.
+
+10. **spoolsv.exe (Print Spooler Service):**
+    - *Description:* spoolsv.exe manages print jobs and print queues on your system.
+
+Below is the parent child relationship:
 - System (System Process)
   - smss.exe (Session Manager Subsystem)
   - csrss.exe (Client Server Runtime Process)
