@@ -32,13 +32,15 @@ Here are some core Windows processes:
     - *Description:* spoolsv.exe manages print jobs and print queues on your system.
 
 Below is the parent child relationship:
-- System (System Process)
-  - smss.exe (Session Manager Subsystem)
-  - csrss.exe (Client Server Runtime Process)
-  - wininit.exe (Windows Start-Up Application)
-    - services.exe (Services and Controller app)
-      - svchost.exe (Service Host)
-      - spoolsv.exe (Print Spooler Service)
-    - lsass.exe (Local Security Authority Subsystem Service)
-  - winlogon.exe (Windows Logon Application)
-    - explorer.exe (Windows Explorer)
+
+- System
+  |-- smss.exe
+  |-- csrss.exe
+  |-- winlogon.exe
+      |-- explorer.exe
+  |-- wininit.exe
+      |-- services.exe
+          |-- svchost.exe
+          |-- spoolsv.exe
+      |-- lsass.exe
+  
